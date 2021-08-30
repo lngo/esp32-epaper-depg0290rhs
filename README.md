@@ -16,7 +16,7 @@ Please see the example which should help to understand how to use this library.
 
 This project must be compiled by ESP-IDF, which is guided here https://docs.espressif.com/projects/esp-idf/en/latest/esp32/get-started/
 
-The result should looks as follows
+The result should look as follows
 
 ![alt text](pictures/Result.jpg "result")
 
