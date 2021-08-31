@@ -56,12 +56,7 @@ void e_paper_task(void *pvParameter)
         .color_inv = 1,
     };
 
-    uint32_t cnt = 0;
-    char hum_str[7];
-    char tsens_str[7];
-	
-	int current_color = WHITE;
-	
+   
     while(1){
         ESP_LOGI(TAG, "Before ePaper driver init, heap: %d", esp_get_free_heap_size());
         device = iot_epaper_create(NULL, &epaper_conf);
@@ -76,8 +71,7 @@ void e_paper_task(void *pvParameter)
 		iot_epaper_draw_line(device, 10, 55 , 150, 70, BLACK); //For horizontal or vertical lines, dont use this function.		
 		iot_epaper_draw_filled_rectangle(device, 160, 55, 280, 70, RED);		
 		iot_epaper_draw_filled_circle( device, 80, 100, 50, BLACK); //This circle is intentionally written to expand beyond the boundary and overlap the above line, just for testing.		
-		iot_epaper_draw_circle( device, 200, 100, 20, RED);
-				
+		iot_epaper_draw_circle( device, 200, 100, 20, RED);				
 
         
         iot_epaper_display_frame(device, NULL, NULL);
@@ -88,7 +82,6 @@ void e_paper_task(void *pvParameter)
         iot_epaper_delete(device, true); 
     }
 }
-
 
 void app_main()
 {
