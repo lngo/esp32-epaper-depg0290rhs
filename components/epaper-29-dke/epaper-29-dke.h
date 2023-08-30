@@ -12,7 +12,7 @@
 // See the License for the specific language governing permissions and
 // limitations under the License.
 
-//Modifications copyright (C) 2021 longngo.xyz
+//Modifications copyright (C) 2021 longngo.net
 
 #ifndef _IOT_E_PAPER_29_DKE_H_
 #define _IOT_E_PAPER_29_DKE_H_

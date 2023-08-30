@@ -28,5 +28,5 @@ I also got some useful help from the arduino forum at https://forum.arduino.cc/t
 ## License
 [Apache License Version 2.0, January 2004](LICENSE).
 
-Modifications copyright (C) 2021 longngo.xyz
+Modifications copyright (C) 2021 longngo.net
 

@@ -13,7 +13,7 @@
 // limitations under the License.
 
 //This library was based on the code at https://github.com/krzychb/esp-epaper-29-dke 
-//Modifications copyright (C) 2021 longngo.xyz
+//Modifications copyright (C) 2021 longngo.net
 
 #include <stdio.h>
 
